@@ -81,7 +81,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="211,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="the best is yawning" />
+          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="211,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="the best is travelling" />
         </Sequence>
         <Assign sap:VirtualizedContainerService.HintSize="242,60" sap2010:WorkflowViewState.IdRef="Assign_1">
           <Assign.To>
