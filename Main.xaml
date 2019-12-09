@@ -65,7 +65,7 @@
           <av:Size x:Key="ShapeSize">200,51</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="286,409" sap2010:WorkflowViewState.IdRef="Sequence_1">
+      <Sequence sap:VirtualizedContainerService.HintSize="286,510" sap2010:WorkflowViewState.IdRef="Sequence_1">
         <Sequence.Variables>
           <Variable x:TypeArguments="ui:GenericValue" Name="HXGASHYA" />
         </Sequence.Variables>
@@ -75,7 +75,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="264,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="checking" />
-        <Sequence sap:VirtualizedContainerService.HintSize="264,184" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence sap:VirtualizedContainerService.HintSize="264,285" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -89,6 +89,7 @@
               <InArgument x:TypeArguments="ui:GenericValue">["JXASKJAS"]</InArgument>
             </Assign.Value>
           </Assign>
+          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="242,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[HXGASHYA.ToString+&quot; is checking for the branch&quot;]" />
         </Sequence>
       </Sequence>
     </FlowStep>
